@@ -1,5 +1,7 @@
 # lean-send-webmentions
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/qubyte/lean-send-webmentions.svg)](https://greenkeeper.io/)
+
 With the arrival of https://webmention.app, I decided to ditch my own
 implementation While it was techically doing more (it was capable of 
 rescanning old posts for new URLs to mention), most of the additional
