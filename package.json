@@ -1,0 +1,27 @@
+{
+  "name": "lean-send-webmentions",
+  "version": "0.0.1",
+  "description": "A leaner version of send-webmentions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "@remy/webmention": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "webmention"
+  ],
+  "sitemapUrl": "https://qubyte.codes/sitemap.txt",
+  "pagePattern": "^https://qubyte.codes/(blog|links)/.+"
+}
